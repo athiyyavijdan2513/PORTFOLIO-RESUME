@@ -1,0 +1,230 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Saira Condensed", sans-serif;
+}
+.profile_resume{
+    background-color: #cb6f21;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+    position:fixed;
+}
+.profile{
+    width: 140px;
+    height: 140px;
+    background-color: #d18b45;
+    border-radius: 50%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;  
+    text-align: center;
+    margin: auto;
+}
+.profile img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+.list-group {
+    margin-top: 20px;
+}
+.list-group a{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color:  #edd5ae;
+}
+.list-group a:hover{
+    color: #dec0b5;
+    background-color: transparent;
+}
+#list-example  .list-group-item-action{
+    background-color: transparent;
+}
+/* content_side */
+.content_resume{
+   align-content: center;
+   margin-left: 12em;
+}  
+/* about_section */
+#about{
+    align-content: center;
+    height: 600px;
+    margin-left: 8vh;
+}
+.resume_heading .mainheading{
+    font-size: 75px;
+    font-weight: bolder;
+    line-height: 0.8;
+    color: #333;
+
+}
+.mainheading span{
+    color:#cb6f21;
+}
+.resume_heading .subheading{
+    font-size: 17px;
+    color: #777;
+    padding-bottom: 2.5em;
+}
+.subheading a{
+    text-decoration: none;
+    color: #cb6f21;
+}
+.about_icons,.skills_icons,.skills_points{
+    list-style-type: none;
+    padding: 0%;
+    margin-left: 7px;
+}
+.about_icons li{
+    display: inline-block;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #444;
+    color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+.line{
+    width: 168vh;
+    height: 1px;
+    background-color: rgb(229, 226, 226);
+    margin-left: 48px;
+}
+#about .paragraph{
+    width: 100%;
+}
+/* experience_section */
+#experience{
+    height: 1050px;
+    align-content: center;
+    margin-left: 8vh;
+}
+.heading{
+    font-size: 45px;
+    font-weight: bold;
+}
+.box{
+    padding: 40px 0;
+}
+.box .head{
+    display: flex;
+}
+.box .mainheading{
+    font-weight: bolder;
+    font-size: 23px;
+    width: 70%;
+}
+.box .subheading{
+    line-height: 10px;
+    font-size:18px;
+    color: #777;
+    font-weight: 600;
+}
+.head .date{
+   color: #cb6f21;
+   font-weight: 500;
+   font-size: 15px;
+  text-align: right;
+  width: 30%;
+}
+.paragraph{
+    padding-top: 1em;
+    width: 75%;
+    font-size: 15px;
+    color: #666;
+}
+/* Education_section */
+#education,#skills,#interests,#awards{
+   height: 600px;
+   align-content: center;
+   margin-left: 8vh;
+}
+.box{
+    padding: 20px 0;
+}
+/* skills_section */
+#skills .edit{
+    padding-bottom: 10px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7px;
+}
+.skills_icons{
+    padding: 20px 0;
+}
+.skills_icons li{
+    display: inline;
+    font-size: 40px;
+    padding-right: 25px;
+    color: #777;
+}
+.points li{
+    display: flex;
+    line-height:1.5em;
+    padding: 0;
+    margin: 0;
+} 
+.points .paragraph{
+    margin: 0;
+    padding: 0;
+
+}
+#skills .points .icon{
+    font-weight: bolder;
+    font-size:15px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 8px;
+    color: #777;
+}
+/* interests_section */
+#interests .paragraph{
+    width: 100%;
+}
+/* awards_section */
+#awards .icon{
+    color:orange;
+    padding-right: 7px;
+    font-size: 12px;
+}
+#awards .heading{
+    padding: 40px 0;
+}
+#awards .points{
+    margin: 0; 
+    padding-left: 10px;
+}
+@media screen and (max-width:992px) {
+    #experience{
+        height: 1337px;
+    }
+    .profile_resume{
+        position:relative;
+    }
+    .content_resume{
+        position: relative;
+        margin-left: 0;
+     }
+
+}
